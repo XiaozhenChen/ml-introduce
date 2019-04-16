@@ -7,8 +7,8 @@ def dictvec():
     """
     dict = DictVectorizer()
 
-    data = dict.fit_transform([{'city':'北京'，'temperature':100},
-    {'city':'上海'，'temperature':80},{'city':'深圳'，'temperature':60}])
+    data = dict.fit_transform([{'city':'北京','temperature':100},
+    {'city':'上海','temperature':80},{'city':'深圳','temperature':60}])
 
     print(data)
 
